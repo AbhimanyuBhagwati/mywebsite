@@ -1,0 +1,195 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhimanyu Bhagwati</title>
+
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .border-info {
+            border-color: black !important;
+            border-width: 4px !important;
+        }
+
+        .black-border {
+            border: 2px solid black; /* Set the border size and style as needed */
+        }
+
+        .social {
+            width: 35px;
+            height: 35px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card card-body h-100 border-info" id="profile-wrapper">
+                <img id="profile-pic" src="{% static 'images/abhi.jpg' %}" >
+                <hr>
+                <h4>Hi I'm Abhi!</h4>
+                <p>I love coding, doing research and collaborating</p>
+                <p><a href="mailto:abhimanyu@vt.edu"><img class="social" src="{% static 'images/mail.png'%}" alt="Mail"> abhimanyu@vt.edu</a></p>
+                <p><img class="social" src="{% static 'images/phone.png'%}" alt="Phone"> +1 (571) 604-1237</p>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div class="card card-body h-100 border-info">
+                <h4>About Me</h4>
+                <hr>
+                <p>
+                    Experienced programmer with a strong focus on Python, including Django and FastAPI for seamless database integration and design. Familiar with Linux, Java, and Go, with a knack for building microservices. Navigating the software development cycle and advocating for best practices are my forte. A collaborative team player, I'm open to input and dedicated to crafting optimal solutions. Currently pursuing a Master's in Machine Learning and Data Analysis at Virginia Tech. Proficient in revealing insights from intricate datasets and creating dynamic visualizations using Dash, Python, Pandas, Matplotlib, and Seaborn.
+                </p>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.linkedin.com/in/abhimanyubhagwati/" target="_blank">
+                            <img class="social" src="{% static 'images/linkedin.png' %}" alt="LinkedIn">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.hackerrank.com/profile/abhimanyubhagwa1" target="_blank">
+                            <img class="social" src="{% static 'images/hr.png' %}" alt="Hackerrank">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/AbhimanyuBhagwati" target="_blank">
+                            <img class="social" src="{% static 'images/github.png' %}" alt="Github">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    
+    <div class="row">
+        
+        <div class="col-md-12">
+            <div class="card card-body h-100 border-info">
+                <h5>My Experience as a Developer</h5>
+                <hr>
+                <p><img class="social" src="{% static 'images/rakuten.png'%}" alt="Rakuten"> <strong>Rakuten Symphony Dec 2021 – Jun 2023</strong></p>
+                <span class="black-border" style="padding: 10px; line-height: 1.2;">
+    <ul>
+        <strong><li>Technologies: Python 3.x • pandas • Flask • Kubernetes • MongoDB</li></strong>
+        <li>* Network automation expertise, with experience in Kubernetes and container-based applications.</li>
+        <li>* Successfully implemented various automation tools such as Async, and deployed over cloud, resulting in a 40% increase
+            of log analysis and few features' upgrades.</li>  
+        <li>* Collaborated with senior developers to design, develop, and maintain Python-based software applications, and
+            successfully delivered beta features within an existing product.</li>
+        <li>* Accomplished intricate data manipulation using Pandas, elevating sophistication in automation projects.</li>
+        <li>* Developed and maintained a robust RESTful API to facilitate seamless data communication, enabling efficient
+            integration with external systems.</li>
+    </ul>
+</span>
+                <br>
+                <p><img class="social" src="{% static 'images/oops.png'%}" alt="oops"> <strong>OOPS INFO SOLUTIONS May 2019 – Jul 2019</strong></p>
+                <span class="black-border" style="padding: 10px; line-height: 1.2;">
+    <ul>
+        <strong><li>Technologies: • Python • pandas • Numpy • Seaborn</li></strong>
+        <li>* Developed and maintained data pipelines to ingest, collect, and extract data from various sources, such as databases,
+        APIs, and external datasets.</li>
+        <li>* Cleaned, preprocessed, and transformed raw data into a usable format for analysis and reporting.</li>
+        <li>* Merged, joined, and aggregated data as needed for analytics and reporting.</li>
+    </ul>
+</span>
+                <br>
+                <p><img class="social" src="{% static 'images/oops.png'%}" alt="oops"> <strong>OOPS INFO SOLUTIONS May 2018 – Jul 2018</strong></p>
+                <span class="black-border" style="padding: 10px; line-height: 1.2;">
+    <ul>
+        <strong><li>Technologies: • Java • MySQL • Springboot</li></strong><br>
+        <li>* Contributed to the development of back-end functionalities for applications.</li><br>
+        <li>* Assisted in writing SQL queries to extract and manipulate data.</li>
+        <li>* Conducted unit testing and participated in quality assurance activities to identify and resolve software Defects.</li>
+    </ul>
+</span>
+            </div>
+        </div>
+    </div>
+    <br>
+    
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card card-body h-100 border-info">
+                <h5>Education</h5>
+                <hr>
+                <p>
+    <img class="social" src="{% static 'images/VT.png'%}" alt="Virginia Tech" style="max-width: 100%; height: auto;">
+    Virginia Tech 2023-2025
+    <br>
+    <ul style="margin-top: 5px; list-style-type: none;">
+        <li>Relevant Courses</li>
+        <li>Machine Learning (CS 5805), Information Visualization (CS 5764), Software Project Management (CS5784)</li>
+    </ul>
+</p>
+
+                <p><img class="social" src="{% static 'images/cu.png'%}" alt="Chandigarh Univeristy">Chandigarh University  2016-2020
+                    <br>
+                    Bachelor of Technology in Computer Science & Engineering
+                </p>
+            </div>
+        </div>
+        
+        <div class="col-md-6">
+            <div class="card card-body h-100 border-info">
+                <h5>What I Know</h5>
+                <hr>
+                <p>
+                    
+                    <img class="social" src="{% static 'images/python.png'%}" alt="Python" style="width: 50px; height: auto;">
+                    <img class="social" src="{% static 'images/dj.svg'%}" alt="Django" style="width: 50px; height: auto;">
+                    <img class="social" src="{% static 'images/html.png'%}" alt="HTML" style="width: 50px; height: auto;"> <img class="social" src="{% static 'images/css.png'%}" alt="CSS" style="width: 50px; height: auto;">
+                    <img class="social" src="{% static 'images/javascript.png'%}" alt="JavaScript" style="width: 50px; height: auto;">
+                    <img class="social" src="{% static 'images/sql.png'%}" alt="SQL" style="width: 50px; height: auto;">
+                    <img class="social" src="{% static 'images/api.png'%}" alt="API" style="width: 50px; height: auto;">
+                    <img class="social" src="{% static 'images/pd.png'%}" alt="Pandas" style="width: 50px; height: 50px;">
+                    <img class="social" src="{% static 'images/dckr.png'%}" alt="DOCKER" style="width: 50px; height: auto;">
+                    <img class="social" src="{% static 'images/kub.svg'%}" alt="Kubernetes" style="width: 50px; height: 50px;">
+                    <img class="social" src="{% static 'images/linux.svg'%}" alt="Linux" style="width: 50px; height: 50px;">
+                    <img class="social" src="{% static 'images/git.png'%}" alt="Version Control" style="width: 50px; height: auto;">
+                    <img class="social" src="{% static 'images/aws.png'%}" alt="AWS" style="width: 50px; height: auto;">
+                    <img class="social" src="{% static 'images/gcp.png'%}" alt="GCP" style="width: 50px; height: 50px;">
+                </p>
+                <br>
+                <p>Working on <img class="social" src="{% static 'images/njs.svg'%}" alt="NODEJS" style="width: 30px; height: auto;">, <img class="social" src="{% static 'images/mdb.svg'%}" alt="MongoDb" style="width: 20px; height: auto;">, <img class="social" src="{% static 'images/gql.svg'%}" alt="graphql"> and Machine Learning.</p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card card-body h-100 border-info">
+                <h5>My Projects</h5>
+                <hr>
+                <span class="black-border" style="padding: 10px; line-height: 1.2;">
+    <ul>
+    <a href="https://dashapp-4utmtv5bpq-nn.a.run.app" target="_blank" class="social-link"><strong>APPLICATION [CLICK TO VISIT]</strong></a>
+</li><br>
+        
+        <strong><li>Technologies: • Python • pandas • Numpy • Seaborn • Plotly • GCP</li></strong><br>
+        <li>* The primary objective of the Zillow Data Visualizations project was to extract valuable insights from real estate data using a variety of plots and visualization techniques. By implementing features such as outlier detection and carefully selected plots, the aim was to uncover hidden patterns, trends, and outliers within the dataset.</li>
+
+    </ul>
+</span>
+                </div>
+        </div>
+    
+</div>
+
+
+
+</body>
+</html>
