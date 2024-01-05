@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'resume101'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_193948D209E8456191E31CD30A121C66 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3853DAE1192A45D99B5B7794FF6090B0 }}
